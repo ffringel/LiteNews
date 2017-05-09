@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="lite_news">#FF9926</color>
+    <color name="ColorPrimary">#FF9926</color>
+    <color name="ColorPrimaryDark">#FF9813</color>
+    <color name="tabsScrollColor">#8899A6</color>
+    <color name="divider">#8899A6</color>
+</resources>

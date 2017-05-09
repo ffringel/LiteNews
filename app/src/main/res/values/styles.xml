@@ -1,0 +1,24 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/ColorPrimary</item>
+    </style>
+
+    <!--ActionBar Style -->
+    <style name="ActionBar.Solid.LiteNews"
+        parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="background">@color/ColorPrimaryDark</item>
+    </style>
+
+    <!--Main activity theme -->
+    <style name="LiteTheme" parent="AppTheme">
+        <item name="actionBarStyle">@style/ActionBar.Solid.LiteNews.NoTitle</item>
+    </style>
+
+    <!--Main activity action bar style-->
+    <style name="ActionBar.Solid.LiteNews.NoTitle" parent="@style/ActionBar.Solid.LiteNews">
+        <item name="displayOptions">useLogo|showHome</item>
+        <item name="logo">@drawable/ic_logo</item>
+    </style>
+</resources>

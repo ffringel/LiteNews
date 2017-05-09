@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="me.quif.litenews" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".LiteNews"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="66f15627bab123bbe014c97e3dc42df87409af93" />
+
+        <activity
+            android:name=".activity.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/LiteTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.TechActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".activity.SportActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".activity.PoliticsActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".activity.EntertainmentActivity"
+            android:label="@string/app_name" >
+        </activity>
+    </application>
+
+</manifest>
